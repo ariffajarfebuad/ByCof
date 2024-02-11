@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ByCoff</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Feather Icons -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- My Style -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Navbar start -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">By<span>Coff</span>.</a>
+
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#products">Produk</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <!-- Search Form start -->
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+    <!-- Search Form end -->
+
+    <!-- Shopping Cart start -->
+    <div class="shopping-cart">
+      <div class="cart-item">
+        <img src="img/products/1.jpg" alt="Product 1">
+        <div class="item-detail">
+          <h3>Product 1</h3>
+          <div class="item-price">IDR 30K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="img/products/1.jpg" alt="Product 1">
+        <div class="item-detail">
+          <h3>Product 1</h3>
+          <div class="item-price">IDR 30K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="img/products/1.jpg" alt="Product 1">
+        <div class="item-detail">
+          <h3>Product 1</h3>
+          <div class="item-price">IDR 30K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+    </div>
+    <!-- Shopping Cart end -->
+
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- Hero Section start -->
+  <section class="hero" id="home">
+    <div class="mask-container">
+      <main class="content">
+        <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
+        <p>Nikmati kesempurnaan rasa dan aroma yang tak terlupakan. 
+          Kami mengundang Anda untuk menemukan keindahan kopi bersama kami. Selamat menikmati!</p>
+      </main>
+    </div>
+  </section>
+  <!-- Hero Section end -->
+
+
+  <!-- About Section start -->
+  <section id="about" class="about">
+    <h2><span>Tentang</span> Kami</h2>
+
+    <div class="row">
+      <div class="about-img">
+        <img src="img/tentang-kami.jpg" alt="Tentang Kami">
+      </div>
+      <div class="content">
+        <h3>Kenapa memilih kopi kami?</h3>
+        <p>Selamat datang di dunia kopi kami, tempat di mana kecintaan terhadap biji kopi berkumpul dengan seni dan inovasi. 
+          Kami adalah komunitas pencinta kopi yang mengabdi untuk memberikan pengalaman kopi yang tak terlupakan. Dengan 
+          dedikasi kepada keberlanjutan dan kualitas, kami bangga menjadi  bagian dari setiap gelas kopi yang Anda nikmati.</p>
+      </div>
+    </div>
+  </section>
+  <!-- About Section end -->
+
+  <!-- Menu Section start -->
+  <section id="menu" class="menu">
+    <h2><span>Menu</span> Kami</h2>
+    <p>Selamat datang di perjalanan rasa yang tak terlupakan. Berikut adalah rangkaian menu pilihan kami, diracik 
+      dengan cinta dan perhatian untuk memuaskan setiap selera pecinta kopi.
+    </p>
+
+    <div class="row">
+      <div class="menu-card">
+        <img src="img/menu/1.png" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Espresso -</h3>
+        <p class="menu-card-price">IDR 15K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/2.png" alt="Capuccino" class="menu-card-img">
+        <h3 class="menu-card-title">- Capuccino -</h3>
+        <p class="menu-card-price">IDR 25K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/3.png" alt="Latte" class="menu-card-img">
+        <h3 class="menu-card-title">- Latte -</h3>
+        <p class="menu-card-price">IDR 20K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/6.png" alt="Cranberrycano" class="menu-card-img">
+        <h3 class="menu-card-title">- Cranberrycano -</h3>
+        <p class="menu-card-price">IDR 35K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/4.png" alt="Machiato" class="menu-card-img">
+        <h3 class="menu-card-title">- Machiato -</h3>
+        <p class="menu-card-price">IDR 35K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/5.png" alt="Americano" class="menu-card-img">
+        <h3 class="menu-card-title">- Americano -</h3>
+        <p class="menu-card-price">IDR 15K</p>
+      </div>
+    </div>
+  </section>
+  <!-- Menu Section end -->
+
+  <!-- Products Section start -->
+  <section class="products" id="products">
+    <h2><span>Produk Unggulan</span> Kami</h2>
+    <p>Selamat datang dalam dunia rasa yang istimewa, di mana setiap produk kami adalah hasil dari keahlian 
+      dan dedikasi yang tak tergantikan. Berikut adalah sebagian produk unggulan yang mencerminkan kelezatan 
+      dan inovasi yang kami tawarkan dalam setiap kemasan.</p>
+
+      <div class="row">
+        <div class="product-card">
+            <div class="product-icons">
+                <a href="#" class="add-to-cart" data-product-id="1"><i data-feather="shopping-cart"></i></a>
+                <a href="#" class="item-detail-button" data-product-id="1"><i data-feather="eye"></i></a>
+            </div>
+            <div class="product-image">
+                <img src="img/products/Coffee Arabika.jpg" alt="Coffee Arabika">
+            </div>
+            <div class="product-content">
+                <h3>Coffee Arabika</h3></br>
+                <div class="product-price">IDR 30.000 <span>IDR 35.000</span></div>
+            </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#" class="add-to-cart" data-product-id="2"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button" data-product-id="2"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/Coffee Robusta.jpg" alt="Coffee Robusta">
+          </div>
+          <div class="product-content">
+            <h3>Coffee Robusta</h3></br>
+            <div class="product-price">IDR 40.000 <span>IDR 45K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#" class="add-to-cart" data-product-id="3"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button" data-product-id="3"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/Coffee Speciality.jpg" alt="Coffee Speciality">
+          </div>
+          <div class="product-content">
+            <h3>Coffee Speciality</h3></br>
+            <div class="product-price">IDR 50K <span>IDR 55K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#" class="add-to-cart" data-product-id="4"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button" data-product-id="4"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/Coffee Spciality + Sugar.jpg" alt="Coffee Spciality + Sugar">
+          </div>
+          <div class="product-content">
+            <h3>Coffee Spciality + Sugar</h3></br>
+            <div class="product-price">IDR 50K <span>IDR 55K</span></div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- Products Section end -->
+
+  <!-- Contact Section start -->
+  <section id="contact" class="contact">
+    <h2><span>Kontak</span> Kami</h2>
+    <p>Silakan hubungi kami untuk informasi lebih lanjut. Kami dengan senang hati siap membantu Anda.
+    </p>
+
+    <div class="row">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15810.736832164093!2d110.35465144620149!3d-7.823210375678676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57a9da3b1bc3%3A0x67d27247c7eca1bf!2sCV%20Bhagwanta%20Raya!5e0!3m2!1sid!2sid!4v1707663051616!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+      <form action="">
+        <div class="input-group">
+          <i data-feather="user"></i>
+          <input type="text" placeholder="nama">
+        </div>
+        <div class="input-group">
+          <i data-feather="mail"></i>
+          <input type="text" placeholder="email">
+        </div>
+        <div class="input-group">
+          <i data-feather="phone"></i>
+          <input type="text" placeholder="no hp">
+        </div>
+        <button type="submit" class="btn">kirim pesan</button>
+      </form>
+
+    </div>
+  </section>
+  <!-- Contact Section end -->
+
+  <!-- Footer start -->
+  <footer>
+    <div class="socials">
+      <a href="#"><i data-feather="instagram"></i></a>
+      <a href="#"><i data-feather="twitter"></i></a>
+      <a href="#"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <!-- Whatsapp Button -->
+    <div class="whatsapp-button">
+      <a href="https://wa.me/62882006024359" target="_blank" rel="noopener noreferrer">
+        <img src="img/whatsapp.png" alt="Whatsapp">
+      </a>
+    </div>
+    <!-- End Whatsapp Button -->
+
+    <div class="credit">
+      <p>© 2024 <a href="">ByCoff</a>. Hak Cipta Dilindungi Undang-Undang</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- Modal Detail -->
+  <div id="item-detail-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-icon" id="close-modal"></span>
+      <div class="modal-body">
+        <img id="modal-product-image" src="" alt="">
+        <h2 id="modal-product-name"></h2>
+        <p id="modal-product-normal-price"></p>
+        <p id="modal-product-description"></p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- My Javascript -->
+  <script src="js/script.js"></script>
+
+  <!-- Feather Icons -->
+  <script>
+    feather.replace()
+  </script>
+
+</body>
+
+</html>
